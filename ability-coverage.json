@@ -1,0 +1,27 @@
+[
+  {
+    "factionId": "necrons",
+    "matched": 64,
+    "abilities": 124,
+    "sections": 83,
+    "unmatched": [],
+    "missing": [],
+    "file": "Necrons — Datasheets [Warhammer 40,000 11th edition].html",
+    "sha256": "367d0fea5e26afd2fabd8240a0b44a8d30651206fd6da625b8f9a8ac8af8f5a9"
+  },
+  {
+    "factionId": "astra-militarum",
+    "matched": 135,
+    "abilities": 255,
+    "sections": 265,
+    "unmatched": [],
+    "missing": [
+      {
+        "unit": "Death Korps Of Krieg",
+        "reason": "No eligible edition marker for ability import"
+      }
+    ],
+    "file": "Astra Militarum — Datasheets [Warhammer 40,000 11th edition].html",
+    "sha256": "5aba45613908035f91c1c540e44479b97fd340592f32325498dd3e1fc0357b2a"
+  }
+]

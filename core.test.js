@@ -1,0 +1,14 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {defaultSelection,validateSelection,equipment,cost,loadoutIssue,search,validateDatabase} from './core.js';
+const db=JSON.parse(readFileSync(new URL('./database.json',import.meta.url)));
+const commander=db.units.find(u=>u.id==='leman-russ-commander'),tank=db.units.find(u=>u.id==='leman-russ-battle-tank'),medusa=db.units.find(u=>u.id==='armageddon-pattern-medusa');
+test('database has internally consistent references and no mixed editions',()=>assert.deepEqual(validateDatabase(db),[]));
+test('paired weapons count equipment once per gun, not per firing mode',()=>{const s={...defaultSelection(commander),sponsons:'plasma-cannon'};assert.equal(equipment(commander,s)['plasma-cannon'],2);assert.equal(commander.weapons.filter(w=>w.equipmentId==='plasma-cannon').length,2);assert.equal(cost(commander,s,1),210);});
+test('cost changes with unit ordinal and paid equipment',()=>{const s={...defaultSelection(commander),turret:'demolisher-battle-cannon',sponsons:'multi-melta'};assert.equal(cost(commander,s,1),225);assert.equal(cost(commander,s,3),240);assert.equal(cost(commander,s,0),null);assert.equal(cost(tank,defaultSelection(tank)),165);});
+test('arbitrary combinations, extra slots and illegal hull options fail closed',()=>{const s=defaultSelection(medusa);assert.ok(validateSelection(medusa,{...s,hull:'lascannon'}).length);assert.ok(validateSelection(medusa,{...s,sponsons:'multi-melta'}).length);assert.equal(equipment(medusa,{...s,hull:'lascannon'}),null);});
+test('same weapon across hull and sponsons accumulates',()=>{const s={...defaultSelection(tank),hull:'heavy-bolter',sponsons:'heavy-bolter'};assert.equal(equipment(tank,s)['heavy-bolter'],3);});
+test('Legends is explicit and still 11th edition',()=>{assert.equal(medusa.legends,true);assert.equal(medusa.edition,11);assert.equal(commander.legends,false);});
+test('stale saved rules require review and unsupported validators are disabled',()=>{assert.ok(loadoutIssue(commander,{revision:'old',selection:defaultSelection(commander)}).length);assert.ok(validateSelection({...commander,wargear:{...commander.wargear,modelScope:'per-model'}},defaultSelection(commander)).length);});
+test('search links to a matching weapon or rule',()=>{assert.ok(search(db,'Medusa siege').some(r=>r.href.includes('/weapon/medusa-siege-cannon')));assert.ok(search(db,'Vox-net').some(r=>r.href.endsWith('/rule/vox-net')));});

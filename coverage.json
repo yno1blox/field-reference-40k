@@ -1,0 +1,411 @@
+[
+  {
+    "id": "adepta-sororitas",
+    "name": "Adepta Sororitas",
+    "sourceUrl": "https://wahapedia.ru/wh40k11ed/factions/adepta-sororitas/datasheets.html",
+    "sourceSha256": "71d5a66451b50e9114a1e4ce52627c8b51ad6e229aab2464fd5a8e4ab7367cf7",
+    "sourceCards": 38,
+    "imported": 38,
+    "unverified": [],
+    "warnings": [],
+    "legends": 5,
+    "profiles": 43,
+    "weapons": 197,
+    "navMissing": []
+  },
+  {
+    "id": "adeptus-custodes",
+    "name": "Adeptus Custodes",
+    "sourceUrl": "https://wahapedia.ru/wh40k11ed/factions/adeptus-custodes/datasheets.html",
+    "sourceSha256": "c759fd8efc10de5b858dfd46de4888b9018ee7561892c2c6363853ab99f49289",
+    "sourceCards": 31,
+    "imported": 31,
+    "unverified": [],
+    "warnings": [],
+    "legends": 0,
+    "profiles": 31,
+    "weapons": 111,
+    "navMissing": []
+  },
+  {
+    "id": "adeptus-mechanicus",
+    "name": "Adeptus Mechanicus",
+    "sourceUrl": "https://wahapedia.ru/wh40k11ed/factions/adeptus-mechanicus/datasheets.html",
+    "sourceSha256": "c25aeee38fa3ae99344d659c345efb9d7c7ccf78edfd95ed1f419e03c3029436",
+    "sourceCards": 38,
+    "imported": 38,
+    "unverified": [],
+    "warnings": [],
+    "legends": 4,
+    "profiles": 39,
+    "weapons": 154,
+    "navMissing": []
+  },
+  {
+    "id": "astra-militarum",
+    "name": "Astra Militarum",
+    "sourceUrl": "https://wahapedia.ru/wh40k11ed/factions/astra-militarum/datasheets.html",
+    "sourceSha256": "422418fe92f452208a706f27489e95e4ba5d36eb62a4c24d313bac7f3e8efead",
+    "sourceCards": 135,
+    "imported": 135,
+    "unverified": [
+      {
+        "id": "astra-militarum--death-korps-of-krieg",
+        "name": "Death Korps Of Krieg",
+        "issues": [
+          "11TH EDITION DATA NOT VERIFIED; source edition 10"
+        ]
+      }
+    ],
+    "warnings": [],
+    "legends": 63,
+    "profiles": 143,
+    "weapons": 843,
+    "navMissing": []
+  },
+  {
+    "id": "grey-knights",
+    "name": "Grey Knights",
+    "sourceUrl": "https://wahapedia.ru/wh40k11ed/factions/grey-knights/datasheets.html",
+    "sourceSha256": "5e139ba6650b132f4f83d6c808faebfae4cdf8ca2326f72b540ce3a96dc19a45",
+    "sourceCards": 31,
+    "imported": 31,
+    "unverified": [],
+    "warnings": [],
+    "legends": 5,
+    "profiles": 31,
+    "weapons": 179,
+    "navMissing": []
+  },
+  {
+    "id": "imperial-agents",
+    "name": "Imperial Agents",
+    "sourceUrl": "https://wahapedia.ru/wh40k11ed/factions/imperial-agents/datasheets.html",
+    "sourceSha256": "d1de64637a7d7e5cb0ff5798b4e9eae2a6a2de1935e82e1b4a99d341d42c19dd",
+    "sourceCards": 46,
+    "imported": 46,
+    "unverified": [],
+    "warnings": [],
+    "legends": 17,
+    "profiles": 55,
+    "weapons": 308,
+    "navMissing": []
+  },
+  {
+    "id": "imperial-knights",
+    "name": "Imperial Knights",
+    "sourceUrl": "https://wahapedia.ru/wh40k11ed/factions/imperial-knights/datasheets.html",
+    "sourceSha256": "0557245cf72374c26bfb410672b27333c0be331e23aa76f794bf60395844555f",
+    "sourceCards": 28,
+    "imported": 28,
+    "unverified": [
+      {
+        "id": "imperial-knights--knight-destrier",
+        "name": "Knight Destrier",
+        "issues": [
+          "11TH EDITION DATA NOT VERIFIED; source edition None"
+        ]
+      }
+    ],
+    "warnings": [],
+    "legends": 0,
+    "profiles": 27,
+    "weapons": 171,
+    "navMissing": []
+  },
+  {
+    "id": "space-marines",
+    "name": "Space Marines",
+    "sourceUrl": "https://wahapedia.ru/wh40k11ed/factions/space-marines/datasheets.html",
+    "sourceSha256": "e50bf2f0669f796868dea69f1ec8be41548376645959019d8e626149d9f8567a",
+    "sourceCards": 291,
+    "imported": 291,
+    "unverified": [
+      {
+        "id": "space-marines--watch-captain-artemis",
+        "name": "Watch Captain Artemis",
+        "issues": [
+          "11TH EDITION DATA NOT VERIFIED; source edition 10"
+        ]
+      },
+      {
+        "id": "space-marines--watch-master",
+        "name": "Watch Master",
+        "issues": [
+          "11TH EDITION DATA NOT VERIFIED; source edition 10"
+        ]
+      },
+      {
+        "id": "space-marines--deathwatch-veterans",
+        "name": "Deathwatch Veterans",
+        "issues": [
+          "11TH EDITION DATA NOT VERIFIED; source edition 10"
+        ]
+      },
+      {
+        "id": "space-marines--decimus-kill-team",
+        "name": "Decimus Kill Team",
+        "issues": [
+          "11TH EDITION DATA NOT VERIFIED; source edition 10"
+        ]
+      },
+      {
+        "id": "space-marines--deathwatch-terminator-squad",
+        "name": "Deathwatch Terminator Squad",
+        "issues": [
+          "11TH EDITION DATA NOT VERIFIED; source edition 10"
+        ]
+      },
+      {
+        "id": "space-marines--fortis-kill-team",
+        "name": "Fortis Kill Team",
+        "issues": [
+          "11TH EDITION DATA NOT VERIFIED; source edition 10"
+        ]
+      },
+      {
+        "id": "space-marines--indomitor-kill-team",
+        "name": "Indomitor Kill Team",
+        "issues": [
+          "11TH EDITION DATA NOT VERIFIED; source edition 10"
+        ]
+      },
+      {
+        "id": "space-marines--spectrus-kill-team",
+        "name": "Spectrus Kill Team",
+        "issues": [
+          "11TH EDITION DATA NOT VERIFIED; source edition 10"
+        ]
+      },
+      {
+        "id": "space-marines--talonstrike-kill-team",
+        "name": "Talonstrike Kill Team",
+        "issues": [
+          "11TH EDITION DATA NOT VERIFIED; source edition 10"
+        ]
+      },
+      {
+        "id": "space-marines--corvus-blackstar",
+        "name": "Corvus Blackstar",
+        "issues": [
+          "11TH EDITION DATA NOT VERIFIED; source edition 10"
+        ]
+      }
+    ],
+    "warnings": [],
+    "legends": 108,
+    "profiles": 291,
+    "weapons": 1714,
+    "navMissing": []
+  },
+  {
+    "id": "chaos-daemons",
+    "name": "Chaos Daemons",
+    "sourceUrl": "https://wahapedia.ru/wh40k11ed/factions/chaos-daemons/datasheets.html",
+    "sourceSha256": "007dc0491ed9c1d87b995537165b69e190bde4af76cc76c7662e5864fc2f92f8",
+    "sourceCards": 101,
+    "imported": 101,
+    "unverified": [],
+    "warnings": [],
+    "legends": 27,
+    "profiles": 108,
+    "weapons": 422,
+    "navMissing": []
+  },
+  {
+    "id": "chaos-knights",
+    "name": "Chaos Knights",
+    "sourceUrl": "https://wahapedia.ru/wh40k11ed/factions/chaos-knights/datasheets.html",
+    "sourceSha256": "ea5a0ebffaf54dad6a95b73194e3741cf61215a0bce4c86f3858db436794e78a",
+    "sourceCards": 37,
+    "imported": 37,
+    "unverified": [],
+    "warnings": [],
+    "legends": 10,
+    "profiles": 42,
+    "weapons": 191,
+    "navMissing": []
+  },
+  {
+    "id": "chaos-space-marines",
+    "name": "Chaos Space Marines",
+    "sourceUrl": "https://wahapedia.ru/wh40k11ed/factions/chaos-space-marines/datasheets.html",
+    "sourceSha256": "91c5b59a229e1ef58528070df533229ce032df5d629f3cb174712afd10a1c97c",
+    "sourceCards": 111,
+    "imported": 111,
+    "unverified": [],
+    "warnings": [],
+    "legends": 53,
+    "profiles": 120,
+    "weapons": 720,
+    "navMissing": []
+  },
+  {
+    "id": "death-guard",
+    "name": "Death Guard",
+    "sourceUrl": "https://wahapedia.ru/wh40k11ed/factions/death-guard/datasheets.html",
+    "sourceSha256": "4f5bc205f54dab6b3dd90e4b7c34fd0b000fdd53fdfaeef731fdbd87b13fcd20",
+    "sourceCards": 71,
+    "imported": 71,
+    "unverified": [],
+    "warnings": [],
+    "legends": 35,
+    "profiles": 72,
+    "weapons": 400,
+    "navMissing": []
+  },
+  {
+    "id": "emperor-s-children",
+    "name": "Emperor’s Children",
+    "sourceUrl": "https://wahapedia.ru/wh40k11ed/factions/emperor-s-children/datasheets.html",
+    "sourceSha256": "2d4b1072824b5314c58e120b1a7d49e6f61558b3b56f64bb34eb32a88bc0cecc",
+    "sourceCards": 23,
+    "imported": 23,
+    "unverified": [],
+    "warnings": [],
+    "legends": 0,
+    "profiles": 23,
+    "weapons": 104,
+    "navMissing": []
+  },
+  {
+    "id": "thousand-sons",
+    "name": "Thousand Sons",
+    "sourceUrl": "https://wahapedia.ru/wh40k11ed/factions/thousand-sons/datasheets.html",
+    "sourceSha256": "3c93200bed922f7ddc4b1d766567fad4a73e30c6c4023f319f8b54be6cd85c27",
+    "sourceCards": 60,
+    "imported": 60,
+    "unverified": [],
+    "warnings": [],
+    "legends": 26,
+    "profiles": 63,
+    "weapons": 360,
+    "navMissing": []
+  },
+  {
+    "id": "world-eaters",
+    "name": "World Eaters",
+    "sourceUrl": "https://wahapedia.ru/wh40k11ed/factions/world-eaters/datasheets.html",
+    "sourceSha256": "006b4b382f2a6d2f94ceb47040336c2f941f30cadee045c1e5548af9545587cf",
+    "sourceCards": 58,
+    "imported": 58,
+    "unverified": [],
+    "warnings": [],
+    "legends": 28,
+    "profiles": 58,
+    "weapons": 331,
+    "navMissing": []
+  },
+  {
+    "id": "aeldari",
+    "name": "Aeldari",
+    "sourceUrl": "https://wahapedia.ru/wh40k11ed/factions/aeldari/datasheets.html",
+    "sourceSha256": "6d55b08a1f471e7928f0c5683ecd80ba736f8eb868a1fba34ebfc143758551cd",
+    "sourceCards": 99,
+    "imported": 99,
+    "unverified": [],
+    "warnings": [],
+    "legends": 23,
+    "profiles": 111,
+    "weapons": 488,
+    "navMissing": []
+  },
+  {
+    "id": "drukhari",
+    "name": "Drukhari",
+    "sourceUrl": "https://wahapedia.ru/wh40k11ed/factions/drukhari/datasheets.html",
+    "sourceSha256": "dab9b2b8500c004e9b100d3da16679e717d020dba2bf469f001772a983fc1f04",
+    "sourceCards": 46,
+    "imported": 46,
+    "unverified": [],
+    "warnings": [],
+    "legends": 9,
+    "profiles": 50,
+    "weapons": 234,
+    "navMissing": []
+  },
+  {
+    "id": "genestealer-cults",
+    "name": "Genestealer Cults",
+    "sourceUrl": "https://wahapedia.ru/wh40k11ed/factions/genestealer-cults/datasheets.html",
+    "sourceSha256": "c51eba361028030a09d201014b89c7ba5080732ad3ce372ac71ab17b2a7ae2e6",
+    "sourceCards": 139,
+    "imported": 139,
+    "unverified": [],
+    "warnings": [],
+    "legends": 51,
+    "profiles": 148,
+    "weapons": 802,
+    "navMissing": []
+  },
+  {
+    "id": "leagues-of-votann",
+    "name": "Leagues of Votann",
+    "sourceUrl": "https://wahapedia.ru/wh40k11ed/factions/leagues-of-votann/datasheets.html",
+    "sourceSha256": "eb0baef9070c565053e00b7c30030ef3875d680000be8dae3d78cd13e12970dd",
+    "sourceCards": 22,
+    "imported": 22,
+    "unverified": [],
+    "warnings": [],
+    "legends": 0,
+    "profiles": 25,
+    "weapons": 105,
+    "navMissing": []
+  },
+  {
+    "id": "necrons",
+    "name": "Necrons",
+    "sourceUrl": "https://wahapedia.ru/wh40k11ed/factions/necrons/datasheets.html",
+    "sourceSha256": "1a8cc81f98bdb29720682aa187900e69e14da45cf5e6766a1b6ae47d203a2023",
+    "sourceCards": 64,
+    "imported": 64,
+    "unverified": [],
+    "warnings": [],
+    "legends": 12,
+    "profiles": 65,
+    "weapons": 172,
+    "navMissing": []
+  },
+  {
+    "id": "orks",
+    "name": "Orks",
+    "sourceUrl": "https://wahapedia.ru/wh40k11ed/factions/orks/datasheets.html",
+    "sourceSha256": "61dcc38b4f7b14295d998db606e4449666158f0521cac0a2d19e6f1012a46322",
+    "sourceCards": 67,
+    "imported": 67,
+    "unverified": [],
+    "warnings": [],
+    "legends": 12,
+    "profiles": 78,
+    "weapons": 324,
+    "navMissing": []
+  },
+  {
+    "id": "t-au-empire",
+    "name": "T’au Empire",
+    "sourceUrl": "https://wahapedia.ru/wh40k11ed/factions/t-au-empire/datasheets.html",
+    "sourceSha256": "53c0b7304994a3c6e07d30001cf1f1093656ef61e98fee2f67e305f8054b9fad",
+    "sourceCards": 62,
+    "imported": 62,
+    "unverified": [],
+    "warnings": [],
+    "legends": 19,
+    "profiles": 64,
+    "weapons": 296,
+    "navMissing": []
+  },
+  {
+    "id": "tyranids",
+    "name": "Tyranids",
+    "sourceUrl": "https://wahapedia.ru/wh40k11ed/factions/tyranids/datasheets.html",
+    "sourceSha256": "a28b8805ee92eda3c44e53f046b9be808dce4d96ba3c3bbb2b8c340f6e18183f",
+    "sourceCards": 57,
+    "imported": 57,
+    "unverified": [],
+    "warnings": [],
+    "legends": 5,
+    "profiles": 58,
+    "weapons": 141,
+    "navMissing": []
+  }
+]

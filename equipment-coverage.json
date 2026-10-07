@@ -1,0 +1,1388 @@
+[
+  {
+    "id": "necrons--illuminor-szeras",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": false,
+    "optionCharacters": 0
+  },
+  {
+    "id": "necrons--imotekh-the-stormlord",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": false,
+    "optionCharacters": 0
+  },
+  {
+    "id": "necrons--nekrosor-ammentar",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": false,
+    "optionCharacters": 0
+  },
+  {
+    "id": "necrons--orikan-the-diviner",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": false,
+    "optionCharacters": 0
+  },
+  {
+    "id": "necrons--trazyn-the-infinite",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": false,
+    "optionCharacters": 0
+  },
+  {
+    "id": "necrons--anrakyr-the-traveller",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 4
+  },
+  {
+    "id": "necrons--nemesor-zahndrekh",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": false,
+    "optionCharacters": 0
+  },
+  {
+    "id": "necrons--vargard-obyron",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": false,
+    "optionCharacters": 0
+  },
+  {
+    "id": "necrons--c-tan-shard-of-the-deceiver",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": false,
+    "optionCharacters": 0
+  },
+  {
+    "id": "necrons--c-tan-shard-of-the-nightbringer",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": false,
+    "optionCharacters": 0
+  },
+  {
+    "id": "necrons--c-tan-shard-of-the-void-dragon",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": false,
+    "optionCharacters": 0
+  },
+  {
+    "id": "necrons--the-silent-king",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": false,
+    "optionCharacters": 0
+  },
+  {
+    "id": "necrons--chronomancer",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": false,
+    "optionCharacters": 0
+  },
+  {
+    "id": "necrons--geomancer",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": false,
+    "optionCharacters": 0
+  },
+  {
+    "id": "necrons--hexmark-destroyer",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": false,
+    "optionCharacters": 0
+  },
+  {
+    "id": "necrons--overlord",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 216
+  },
+  {
+    "id": "necrons--overlord-with-translocation-shroud",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": false,
+    "optionCharacters": 0
+  },
+  {
+    "id": "necrons--plasmancer",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": false,
+    "optionCharacters": 0
+  },
+  {
+    "id": "necrons--psychomancer",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": false,
+    "optionCharacters": 0
+  },
+  {
+    "id": "necrons--royal-warden",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": false,
+    "optionCharacters": 0
+  },
+  {
+    "id": "necrons--skorpekh-lord",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": false,
+    "optionCharacters": 0
+  },
+  {
+    "id": "necrons--technomancer",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": false,
+    "optionCharacters": 0
+  },
+  {
+    "id": "necrons--lord",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 116
+  },
+  {
+    "id": "necrons--transcendent-c-tan",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": false,
+    "optionCharacters": 0
+  },
+  {
+    "id": "necrons--lokhust-lord",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 157
+  },
+  {
+    "id": "necrons--catacomb-command-barge",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 183
+  },
+  {
+    "id": "necrons--immortals",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 88
+  },
+  {
+    "id": "necrons--necron-warriors",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 83
+  },
+  {
+    "id": "necrons--ghost-ark",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": false,
+    "optionCharacters": 0
+  },
+  {
+    "id": "necrons--doom-scythe",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": false,
+    "optionCharacters": 0
+  },
+  {
+    "id": "necrons--night-shroud",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": false,
+    "optionCharacters": 0
+  },
+  {
+    "id": "necrons--canoptek-macrocytes",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 277
+  },
+  {
+    "id": "necrons--canoptek-tomb-crawlers",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 77
+  },
+  {
+    "id": "necrons--canoptek-wraiths",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 193
+  },
+  {
+    "id": "necrons--canoptek-acanthrites",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 4
+  },
+  {
+    "id": "necrons--cryptothralls",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": false,
+    "optionCharacters": 0
+  },
+  {
+    "id": "necrons--deathmarks",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": false,
+    "optionCharacters": 0
+  },
+  {
+    "id": "necrons--flayed-ones",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": false,
+    "optionCharacters": 0
+  },
+  {
+    "id": "necrons--lychguard",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 111
+  },
+  {
+    "id": "necrons--ophydian-destroyers",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 65
+  },
+  {
+    "id": "necrons--skorpekh-destroyers",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 65
+  },
+  {
+    "id": "necrons--triarch-praetorians",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 108
+  },
+  {
+    "id": "necrons--canoptek-tomb-sentinel",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 4
+  },
+  {
+    "id": "necrons--canoptek-tomb-stalker",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 4
+  },
+  {
+    "id": "necrons--lokhust-destroyers",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": false,
+    "optionCharacters": 0
+  },
+  {
+    "id": "necrons--lokhust-heavy-destroyers",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 95
+  },
+  {
+    "id": "necrons--tomb-blades",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 292
+  },
+  {
+    "id": "necrons--canoptek-scarab-swarms",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": false,
+    "optionCharacters": 0
+  },
+  {
+    "id": "necrons--monolith",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 65
+  },
+  {
+    "id": "necrons--obelisk",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": false,
+    "optionCharacters": 0
+  },
+  {
+    "id": "necrons--tesseract-vault",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": false,
+    "optionCharacters": 0
+  },
+  {
+    "id": "necrons--seraptek-heavy-construct",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 117
+  },
+  {
+    "id": "necrons--night-scythe",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": false,
+    "optionCharacters": 0
+  },
+  {
+    "id": "necrons--annihilation-barge",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 62
+  },
+  {
+    "id": "necrons--canoptek-spyders",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 200
+  },
+  {
+    "id": "necrons--doomsday-ark",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": false,
+    "optionCharacters": 0
+  },
+  {
+    "id": "necrons--tesseract-ark",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 106
+  },
+  {
+    "id": "necrons--canoptek-doomstalker",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": false,
+    "optionCharacters": 0
+  },
+  {
+    "id": "necrons--canoptek-reanimator",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": false,
+    "optionCharacters": 0
+  },
+  {
+    "id": "necrons--triarch-stalker",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 111
+  },
+  {
+    "id": "necrons--convergence-of-dominion",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": false,
+    "optionCharacters": 0
+  },
+  {
+    "id": "necrons--gauss-pylon",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": false,
+    "optionCharacters": 0
+  },
+  {
+    "id": "necrons--sentry-pylon",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 108
+  },
+  {
+    "id": "necrons--tomb-citadel-walls",
+    "factionId": "necrons",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 148
+  },
+  {
+    "id": "astra-militarum--commissar-graves-on-foot",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 5
+  },
+  {
+    "id": "astra-militarum--commissar-yarrick",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 4
+  },
+  {
+    "id": "astra-militarum--gaunt-s-ghosts",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": false,
+    "optionCharacters": 0
+  },
+  {
+    "id": "astra-militarum--nork-deddog",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": false,
+    "optionCharacters": 0
+  },
+  {
+    "id": "astra-militarum--sly-marbo",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": false,
+    "optionCharacters": 0
+  },
+  {
+    "id": "astra-militarum--ursula-creed",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": false,
+    "optionCharacters": 0
+  },
+  {
+    "id": "astra-militarum--iron-hand-straken",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 4
+  },
+  {
+    "id": "astra-militarum--ciaphas-cain",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": false,
+    "optionCharacters": 0
+  },
+  {
+    "id": "astra-militarum--hell-s-last",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 4
+  },
+  {
+    "id": "astra-militarum--provisionally-prepared",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 4
+  },
+  {
+    "id": "astra-militarum--rein-and-raus",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 4
+  },
+  {
+    "id": "astra-militarum--sergeant-harker",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 4
+  },
+  {
+    "id": "astra-militarum--lord-marshal-dreir",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": false,
+    "optionCharacters": 0
+  },
+  {
+    "id": "astra-militarum--lord-solar-leontus",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": false,
+    "optionCharacters": 0
+  },
+  {
+    "id": "astra-militarum--commissar-graves",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 5
+  },
+  {
+    "id": "astra-militarum--cadian-castellan",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 226
+  },
+  {
+    "id": "astra-militarum--cadian-command-squad",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 745
+  },
+  {
+    "id": "astra-militarum--catachan-command-squad",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 763
+  },
+  {
+    "id": "astra-militarum--commissar",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 123
+  },
+  {
+    "id": "astra-militarum--krieg-command-squad",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 499
+  },
+  {
+    "id": "astra-militarum--militarum-tempestus-command-squad",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 822
+  },
+  {
+    "id": "astra-militarum--ministorum-priest",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 86
+  },
+  {
+    "id": "astra-militarum--ogryn-bodyguard",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 198
+  },
+  {
+    "id": "astra-militarum--primaris-psyker",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": false,
+    "optionCharacters": 0
+  },
+  {
+    "id": "astra-militarum--tech-priest-enginseer",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 4
+  },
+  {
+    "id": "astra-militarum--quartermaster-cadre-squad",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 4
+  },
+  {
+    "id": "astra-militarum--death-rider-commissar",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 4
+  },
+  {
+    "id": "leman-russ-commander",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 595
+  },
+  {
+    "id": "astra-militarum--rogal-dorn-commander",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 357
+  },
+  {
+    "id": "astra-militarum--cadian-shock-troops",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 727
+  },
+  {
+    "id": "astra-militarum--catachan-jungle-fighters",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 239
+  },
+  {
+    "id": "astra-militarum--centaur-rsv",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 5
+  },
+  {
+    "id": "astra-militarum--chimera",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 338
+  },
+  {
+    "id": "astra-militarum--taurox",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 47
+  },
+  {
+    "id": "astra-militarum--taurox-prime",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 259
+  },
+  {
+    "id": "astra-militarum--storm-chimera",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 204
+  },
+  {
+    "id": "astra-militarum--avenger-strike-fighter",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 4
+  },
+  {
+    "id": "astra-militarum--marauder-bomber",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 62
+  },
+  {
+    "id": "astra-militarum--marauder-destroyer",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 58
+  },
+  {
+    "id": "astra-militarum--voss-pattern-lightning",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 60
+  },
+  {
+    "id": "astra-militarum--basilisk",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 119
+  },
+  {
+    "id": "astra-militarum--deathstrike",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 119
+  },
+  {
+    "id": "astra-militarum--manticore",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 119
+  },
+  {
+    "id": "astra-militarum--wyvern",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 119
+  },
+  {
+    "id": "armageddon-pattern-medusa",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 204
+  },
+  {
+    "id": "astra-militarum--griffon-mortar-carrier",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 152
+  },
+  {
+    "id": "astra-militarum--minotaur",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 4
+  },
+  {
+    "id": "astra-militarum--artillery-team",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 132
+  },
+  {
+    "id": "astra-militarum--bullgryn-squad",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 172
+  },
+  {
+    "id": "astra-militarum--cadian-heavy-weapons-squad",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 142
+  },
+  {
+    "id": "astra-militarum--cadian-recon-squad",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 688
+  },
+  {
+    "id": "astra-militarum--catachan-heavy-weapons-squad",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 142
+  },
+  {
+    "id": "astra-militarum--field-ordnance-battery",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 138
+  },
+  {
+    "id": "astra-militarum--kasrkin",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 750
+  },
+  {
+    "id": "astra-militarum--krieg-combat-engineers",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 611
+  },
+  {
+    "id": "astra-militarum--krieg-heavy-weapons-squad",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 149
+  },
+  {
+    "id": "astra-militarum--ogryn-squad",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 4
+  },
+  {
+    "id": "astra-militarum--ratlings",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 261
+  },
+  {
+    "id": "astra-militarum--tempestus-aquilons",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 768
+  },
+  {
+    "id": "astra-militarum--tempestus-scions",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 696
+  },
+  {
+    "id": "astra-militarum--death-korps-grenadier-squad",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 179
+  },
+  {
+    "id": "astra-militarum--earthshaker-carriage-battery",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 4
+  },
+  {
+    "id": "astra-militarum--elysian-sniper-squad",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 4
+  },
+  {
+    "id": "astra-militarum--heavy-mortar-team",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 4
+  },
+  {
+    "id": "astra-militarum--heavy-quad-launcher-team",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 4
+  },
+  {
+    "id": "astra-militarum--medusa-carriage-battery",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 4
+  },
+  {
+    "id": "astra-militarum--munitorum-servitors",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 136
+  },
+  {
+    "id": "astra-militarum--rapier-laser-destroyer-battery",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 4
+  },
+  {
+    "id": "astra-militarum--regimental-attach-s",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 4
+  },
+  {
+    "id": "astra-militarum--attilan-rough-riders",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 152
+  },
+  {
+    "id": "astra-militarum--death-riders",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": false,
+    "optionCharacters": 0
+  },
+  {
+    "id": "astra-militarum--mukaali-riders",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 335
+  },
+  {
+    "id": "astra-militarum--tauros-assault-vehicle",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 130
+  },
+  {
+    "id": "astra-militarum--tauros-venator",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 125
+  },
+  {
+    "id": "astra-militarum--baneblade",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 206
+  },
+  {
+    "id": "astra-militarum--banehammer",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 206
+  },
+  {
+    "id": "astra-militarum--banesword",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 206
+  },
+  {
+    "id": "astra-militarum--doomhammer",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 206
+  },
+  {
+    "id": "astra-militarum--hellhammer",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 206
+  },
+  {
+    "id": "astra-militarum--shadowsword",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 206
+  },
+  {
+    "id": "astra-militarum--stormlord",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 206
+  },
+  {
+    "id": "astra-militarum--stormsword",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 206
+  },
+  {
+    "id": "astra-militarum--arkurian-stormhammer",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 257
+  },
+  {
+    "id": "astra-militarum--dominus-armoured-siege-bombard",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 256
+  },
+  {
+    "id": "astra-militarum--gorgon-heavy-transport",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 178
+  },
+  {
+    "id": "astra-militarum--macharius",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 246
+  },
+  {
+    "id": "astra-militarum--macharius-omega",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 241
+  },
+  {
+    "id": "astra-militarum--macharius-vanquisher",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 246
+  },
+  {
+    "id": "astra-militarum--macharius-vulcan",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 246
+  },
+  {
+    "id": "astra-militarum--stormblade",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 348
+  },
+  {
+    "id": "astra-militarum--valdor",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 250
+  },
+  {
+    "id": "astra-militarum--valkyrie",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 185
+  },
+  {
+    "id": "astra-militarum--aquila-lander",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 95
+  },
+  {
+    "id": "astra-militarum--arvus-lighter",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 4
+  },
+  {
+    "id": "astra-militarum--centaur-light-carrier",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 56
+  },
+  {
+    "id": "astra-militarum--crassus",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 84
+  },
+  {
+    "id": "astra-militarum--valkyrie-sky-talon",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 79
+  },
+  {
+    "id": "astra-militarum--vendetta-gunship",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 140
+  },
+  {
+    "id": "astra-militarum--hellhound",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 254
+  },
+  {
+    "id": "astra-militarum--hippogriff-afv",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 225
+  },
+  {
+    "id": "astra-militarum--hydra",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 119
+  },
+  {
+    "id": "leman-russ-battle-tank",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 355
+  },
+  {
+    "id": "astra-militarum--leman-russ-demolisher",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 355
+  },
+  {
+    "id": "astra-militarum--leman-russ-eradicator",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 355
+  },
+  {
+    "id": "astra-militarum--leman-russ-executioner",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 355
+  },
+  {
+    "id": "astra-militarum--leman-russ-exterminator",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 355
+  },
+  {
+    "id": "astra-militarum--leman-russ-punisher",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 355
+  },
+  {
+    "id": "astra-militarum--leman-russ-vanquisher",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 355
+  },
+  {
+    "id": "astra-militarum--rogal-dorn-battle-tank",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 357
+  },
+  {
+    "id": "astra-militarum--cyclops-demolition-vehicle",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 4
+  },
+  {
+    "id": "astra-militarum--atlas-recovery-vehicle",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 141
+  },
+  {
+    "id": "astra-militarum--carnodon",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 369
+  },
+  {
+    "id": "astra-militarum--colossus",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 141
+  },
+  {
+    "id": "astra-militarum--hades-breaching-drill",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 4
+  },
+  {
+    "id": "astra-militarum--malcador",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 334
+  },
+  {
+    "id": "astra-militarum--malcador-annihilator",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 240
+  },
+  {
+    "id": "astra-militarum--malcador-defender",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 243
+  },
+  {
+    "id": "astra-militarum--malcador-infernus",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 273
+  },
+  {
+    "id": "astra-militarum--praetor",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 84
+  },
+  {
+    "id": "astra-militarum--salamander-command-vehicle",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 141
+  },
+  {
+    "id": "astra-militarum--salamander-scout-vehicle",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 141
+  },
+  {
+    "id": "astra-militarum--stygies-destroyer-tank-hunter",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 141
+  },
+  {
+    "id": "astra-militarum--tarantula-battery",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 90
+  },
+  {
+    "id": "astra-militarum--trojan-support-vehicle",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 119
+  },
+  {
+    "id": "astra-militarum--vulture-gunship",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 111
+  },
+  {
+    "id": "astra-militarum--armoured-sentinels",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 303
+  },
+  {
+    "id": "astra-militarum--scout-sentinels",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 303
+  },
+  {
+    "id": "astra-militarum--elysian-drop-sentinel",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 139
+  },
+  {
+    "id": "astra-militarum--sentinel-powerlifter",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 4
+  },
+  {
+    "id": "astra-militarum--aegis-defence-line",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 4
+  },
+  {
+    "id": "astra-militarum--earthshaker-platform",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 4
+  },
+  {
+    "id": "astra-militarum--hydra-platform",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 4
+  },
+  {
+    "id": "astra-militarum--manticore-platform",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 4
+  },
+  {
+    "id": "astra-militarum--sabre-weapons-battery",
+    "factionId": "astra-militarum",
+    "default": true,
+    "optionsSection": true,
+    "optionCharacters": 166
+  }
+]
