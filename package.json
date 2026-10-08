@@ -1,1 +1,10 @@
-{"name": "field-reference", "version": "0.1.0", "private": true, "type": "module", "scripts": {"test": "node --test core.test.js rules.test.js", "start": "python3 serve.py"}}
+{
+  "name": "field-reference",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test core.test.js rules.test.js detachments.test.js",
+    "start": "python3 serve.py"
+  }
+}

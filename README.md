@@ -1,3 +1,13 @@
+# Detachments update — 8 October 2026
+
+The new Detachments navigation page covers 328 source-listed detachments across all 23 faction pages, including 57 Space Marine entries with chapter detachments. Choose a faction, search by detachment, enhancement or stratagem name, and open a compact detail page. Standard 11th-edition entries appear by default; older Boarding Actions entries remain separately labelled and available through the edition filter. Source labels are not an independent official rules audit, and a Legends label is used only when the source explicitly provides one.
+
+Each entry contains rule names, enhancement names and costs, stratagem names and CP, detachment points and force disposition where listed. Full wording and restrictions open on Wahapedia; they are not copied into this index. Data is a dated snapshot, not a live feed. The importer matches every detachment selector on the approved faction pages, with explicit handling of source naming discrepancies for Gladius, Inner Circle and Kauyon.
+
+Extract the update ZIP into your existing GitHub repository folder and replace the matching files. Keep the new `detachments.json` beside `index.html`, `app.js` and `style.css`. Commit all changed and new files in GitHub Desktop, push to origin, wait for GitHub Pages deployment, then refresh the site. Existing saved folders and loadouts stay in browser storage.
+
+Run `npm test` for database, rules and detachment coverage checks.
+
 # Equipment rules update — 8 October 2026
 
 Necron and Astra Militarum datasheets now show an open, collapsible Equipment & weapon options section directly below their weapon tables. It contains model-specific default equipment, optional swaps, quantities and source footnotes. All 198 eligible records are covered; 152 supplied source cards have explicit wargear-option sections. Where a source lists no equipment or no options section, the interface says so. Death Korps of Krieg remains withheld due to its source edition marker.
