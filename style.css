@@ -85,6 +85,7 @@ nav { font-size: 14px; }
 .folder-dialog .small-actions { justify-content: flex-end; }
 .sheet-export-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; margin: 10px 0; }
 .sheet-export-actions .primary { width: auto; margin: 0; }
+.weapons-column>.weapons-top { margin: 12px 0 0; padding-top: 10px; border-top: 1px solid var(--line); }
 .sheet-export-actions span { color: var(--muted); font-size: 11px; }
 .print-loadout-summary { display: none; }
 @media(max-width:700px) {
@@ -94,47 +95,126 @@ nav { font-size: 14px; }
   .folder-card { padding: 12px; }
 }
 @media print {
-  @page { size: A4 landscape; margin: 7mm; }
-  body.print-card, body.print-card * { color: #171a1f !important; box-shadow: none !important; text-shadow: none !important; }
-  body.print-card { background: #fff !important; font-family: Arial, sans-serif; font-size: 8pt; line-height: 1.22; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  @page { size: A4 landscape; margin: 4mm; }
+  body.print-card, body.print-card * { color: #f2f4f7 !important; box-shadow: none !important; text-shadow: none !important; }
+  body.print-card { background: #11151b !important; font-family: Arial, sans-serif; font-size: 7.5pt; line-height: 1.18; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
   body.print-card header, body.print-card footer, body.print-card #notice, body.print-card #search-results,
   body.print-card .back, body.print-card .sheet-export-actions, body.print-card .weapons-top,
   body.print-card .loadout-editor, body.print-card .unverified-loadout, body.print-card .photo-upload,
   body.print-card .photo-remove, body.print-card .mobile-table-hint, body.print-card .provenance,
   body.print-card .rule-source, body.print-card .chevron { display: none !important; }
-  body.print-card main#main { width: 100%; max-width: none; min-height: 0; margin: 0; padding: 0; }
-  body.print-card .unit-heading { grid-template-columns: minmax(0,1fr) 28mm; gap: 4mm; margin: 0 0 2mm; padding: 2mm 0; border-top: 1.2mm solid #b48736; }
-  body.print-card .unit-heading h1 { font-size: 17pt; margin: 0 0 2mm; }
+  body.print-card main#main { width: 100%; max-width: none; min-height: 0; margin: 0; padding: 0; background: #11151b !important; }
+  body.print-card .unit-heading { grid-template-columns: minmax(0,1fr) 27mm; gap: 3mm; margin: 0 0 1.5mm; padding: 1.5mm 0; border-top: 1mm solid #b48736; }
+  body.print-card .unit-heading h1 { font-size: 15pt; margin: 0 0 1.5mm; }
   body.print-card .unit-title-line { margin-bottom: 1mm; }
-  body.print-card .unit-image { height: 25mm; min-height: 25mm; max-height: 25mm; background: #f2f4f7; border: 1px solid #9da5af; }
+  body.print-card .unit-image { height: 23mm; min-height: 23mm; max-height: 23mm; background: #1b222b !important; border-color: #465362; }
   body.print-card .profile { gap: 1mm; }
-  body.print-card .profile>div { min-width: 9mm; padding: 1mm; background: #f0f2f5 !important; border-color: #b8bec7; }
-  body.print-card .profile strong { font-size: 11pt; }
-  body.print-card .profile small, body.print-card .keywords, body.print-card .invulnerable { font-size: 7pt; }
-  body.print-card .status-strip { margin: 1mm 0 2mm; padding: 1.5mm 2mm; background: #eef1f4 !important; border-color: #aeb6c0; font-size: 7pt; }
-  body.print-card .print-loadout-summary { display: block; margin: 1mm 0 2mm; padding: 1.5mm 2mm; border: 1px solid #aeb6c0; background: #f4f5f7 !important; font-size: 7pt; }
-  body.print-card .sheet-grid { grid-template-columns: minmax(0,1.8fr) minmax(0,1fr); gap: 3mm; margin-top: 1mm; }
-  body.print-card .section-bar { padding: 1.2mm 2mm; background: #e3e7ec !important; border: 1px solid #aeb6c0; font-size: 8pt; }
-  body.print-card .weapon-table { font-size: 7.5pt; line-height: 1.15; }
-  body.print-card .weapon-table th, body.print-card .weapon-table td { padding: 1mm .7mm; border-bottom: 1px solid #cbd0d7; }
-  body.print-card .weapon-table thead { background: #e2e6eb !important; }
-  body.print-card .weapon-row, body.print-card .weapon-row:nth-child(even), body.print-card .weapon-row:hover { background: #fff !important; }
-  body.print-card .weapon-row.is-collapsed { color: #171a1f !important; }
+  body.print-card .profile>div { min-width: 9mm; padding: 1mm; background: #d8dee7 !important; border-color: #768394; }
+  body.print-card .profile strong, body.print-card .profile small { color: #20252d !important; }
+  body.print-card .profile strong { font-size: 10pt; }
+  body.print-card .profile small, body.print-card .keywords, body.print-card .invulnerable { font-size: 6.5pt; }
+  body.print-card .status-strip { margin: 1mm 0 1.5mm; padding: 1mm 1.5mm; background: #202833 !important; border-color: #465362; font-size: 6.5pt; }
+  body.print-card .print-loadout-summary { display: block; margin: 1mm 0 1.5mm; padding: 1mm 1.5mm; border: 1px solid #465362; background: #202833 !important; font-size: 6.5pt; }
+  body.print-card .sheet-grid { grid-template-columns: minmax(0,2.2fr) minmax(0,1fr); gap: 2.5mm; margin-top: 1mm; }
+  body.print-card .section-bar { padding: 1mm 1.5mm; background: #333c49 !important; border: 1px solid #465362; font-size: 7.5pt; }
+  body.print-card .weapon-table { font-size: 7pt; line-height: 1.12; }
+  body.print-card .weapon-table th, body.print-card .weapon-table td { padding: .7mm .5mm; border-bottom: 1px solid #465362; }
+  body.print-card .weapon-table thead { background: #333c49 !important; }
+  body.print-card .weapon-row, body.print-card .weapon-row:nth-child(even), body.print-card .weapon-row:hover { background: #1b222b !important; }
+  body.print-card .weapon-row.is-collapsed { color: #f2f4f7 !important; }
   body.print-card .weapon-stat[hidden], body.print-card .inline-traits[hidden] { display: inline !important; }
   body.print-card .weapon-toggle, body.print-card .toggle-col, body.print-card .toggle-cell { display: none !important; }
-  body.print-card .inline-traits>span { padding: 0 .5mm; background: #e8ebef !important; font-size: 6pt; }
-  body.print-card .rules-column .rule { margin: 0; padding: 0 1mm 1mm; border-bottom: 1px solid #cbd0d7; background: #fff !important; }
-  body.print-card .rules-column .rule summary { min-height: 0; padding: 1mm 0; font-size: 7.5pt; font-weight: 700; }
+  body.print-card .inline-traits>span { padding: 0 .4mm; background: #394553 !important; font-size: 5.5pt; }
+  body.print-card .rules-column .rule { margin: 0; padding: 0 .8mm .8mm; border-bottom: 1px solid #394553; background: #11151b !important; }
+  body.print-card .rules-column .rule summary { min-height: 0; padding: .8mm 0; font-size: 7pt; font-weight: 700; }
   body.print-card .rules-column .rule-content, body.print-card .rule-content p,
   body.print-card .composition, body.print-card .points-rows>div,
-  body.print-card .faction-keywords { font-size: 7pt; line-height: 1.25; }
+  body.print-card .faction-keywords { font-size: 6.5pt; line-height: 1.16; }
   body.print-card details.rule:not([open])>.rule-content { display: block !important; }
-  body.print-card .rule-content p { margin: .5mm 0 1mm; }
-  body.print-card .points-rows { padding: 1mm 2mm; }
-  body.print-card .points-rows .points-group { margin: 1mm 0; font-size: 7pt; }
-  body.print-card .points-rows strong { color: #171a1f !important; }
-  body.print-card .faction-keywords { margin-top: 2mm; padding: 1.5mm 2mm; border: 1px solid #aeb6c0; background: #f4f5f7 !important; }
-  body.print-card .hint { margin: 1mm 0; font-size: 6.5pt; }
+  body.print-card .rule-content p { margin: .4mm 0 .7mm; }
+  body.print-card .points-rows { padding: .8mm 1.5mm; }
+  body.print-card .points-rows .points-group { margin: .8mm 0; font-size: 6.5pt; }
+  body.print-card .faction-keywords { margin-top: 1.5mm; padding: 1mm 1.5mm; border: 1px solid #465362; background: #202833 !important; }
+  body.print-card .hint { margin: .8mm 0; font-size: 6pt; }
   body.print-card .unit-heading, body.print-card .weapons-column, body.print-card .rules-column,
   body.print-card .weapon-table tr, body.print-card .section-bar, body.print-card .faction-keywords { break-inside: avoid; }
+}
+
+/* Clear type and controls that stay below the full datasheet. */
+:root {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  font-size: clamp(16px, calc(0.18vw + 14px), 17px);
+  text-rendering: auto;
+  font-optical-sizing: auto;
+}
+body { line-height: 1.55; letter-spacing: 0; }
+button, input, select, textarea { font: inherit; }
+main { max-width: 1560px; }
+.toolbar, .status-strip, .selection-toolbar, .folder-card, .saved-card,
+.dialog-body, .core-rule-list, .source-list, .coverage-table,
+.catalogue-note, .unverified-loadout, .loadout-panel { font-size: 1rem; }
+.eyebrow, .badge, .section-label { font-size: 0.75rem; }
+label, .hint, .card-body p:last-child, .catalogue-note p,
+.points-rows>div, .composition, .faction-keywords,
+.rules-column .rule summary, .rule-content, .rule-content p,
+.rules-column>.hint, .equipment-rules>.rule-content { font-size: 0.875rem; }
+.profile small { font-size: 0.72rem; }
+.keywords { font-size: 0.78rem; }
+.unit-heading h1 { font-size: clamp(1.75rem, 2vw, 2.25rem); }
+.profile strong { font-size: 1.35rem; }
+.weapon-table { font-size: 0.9rem; line-height: 1.45; }
+.weapon-table thead th, .weapon-table thead th:first-child { font-size: 0.82rem; }
+.inline-traits>span, .inline-traits .trait-button { font-size: 0.72rem; }
+.section-bar { font-size: 0.92rem; }
+.profile-note, .model-label, .points-rows .points-group,
+.rule-source { font-size: 0.78rem; }
+.sheet-export-actions {
+  display: flex; align-items: center; justify-content: flex-end; flex-wrap: wrap;
+  gap: 10px; margin: 22px 0 4px; padding: 14px 0 0;
+  border-top: 1px solid var(--line);
+}
+.sheet-export-actions button { min-height: 42px; font-size: 0.9rem; }
+.sheet-export-actions span { flex-basis: 100%; text-align: right; font-size: 0.78rem; }
+.sheet-export-actions .primary { width: auto; margin: 0; }
+@media (min-width: 1200px) {
+  .datasheet-page { padding-top: 18px; }
+  .sheet-grid { grid-template-columns: minmax(0, 2fr) minmax(320px, 0.95fr); gap: 18px; }
+}
+@media (min-width: 701px) and (max-width: 1199px) {
+  .sheet-grid { grid-template-columns: minmax(0, 1.7fr) minmax(280px, 1fr); gap: 14px; }
+  .unit-heading { grid-template-columns: minmax(0, 1fr) 150px; }
+}
+@media (max-width: 880px) {
+  .sheet-grid { grid-template-columns: 1fr; }
+  .rules-column { padding-top: 0; }
+}
+@media (max-width: 700px) {
+  :root { font-size: 16px; }
+  header { padding: 12px 4vw; gap: 12px; }
+  nav { font-size: 0.8rem; gap: clamp(8px, 2vw, 16px); }
+  main { padding: 20px 4vw 36px; }
+  .unit-heading { grid-template-columns: minmax(0, 1fr) 100px; gap: 10px; }
+  .unit-heading h1 { font-size: clamp(1.45rem, 5vw, 1.85rem); }
+  .unit-image { height: 110px; max-height: 110px; }
+  .profile { flex-wrap: wrap; }
+  .profile>div { flex: 0 0 42px; max-width: 52px; padding: 5px 3px; }
+  .profile strong { font-size: 1.15rem; }
+  .profile small { font-size: 0.68rem; }
+  .keywords { font-size: 0.75rem; }
+  .weapon-table { min-width: 570px; font-size: 0.85rem; }
+  .weapon-table thead th, .weapon-table thead th:first-child { font-size: 0.78rem; }
+  .rules-column .rule summary, .rule-content, .rule-content p,
+  .composition, .points-rows>div { font-size: 0.9rem; }
+  .section-bar { font-size: 0.95rem; }
+  .sheet-export-actions { justify-content: stretch; }
+  .sheet-export-actions button { flex: 1 1 100%; min-height: 46px; font-size: 0.9rem; }
+  .sheet-export-actions span { text-align: left; }
+  .cards { grid-template-columns: repeat(auto-fill, minmax(min(100%, 230px), 1fr)); }
+  .card-body { padding: 15px; }
+  .card-body h2 { font-size: 1.15rem; }
+  .toolbar { grid-template-columns: 1fr; }
+  .toolbar>label:nth-child(2) { grid-column: auto; grid-row: auto; }
+  .filter-row>span { margin-left: 0; flex-basis: 100%; }
+  .status-strip { font-size: 0.82rem; }
+  footer { font-size: 0.75rem; }
 }
